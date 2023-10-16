@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centra verticalmente en la página */
+}
+
+.encabezado {
+    text-align: center; /* Centra el texto en el contenedor */
+}
+
+.form {
+    font-size: 16px; /* Reduce el tamaño de la fuente */
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #b3b3b3;
+    padding: 15%;
+    border-radius: 2%;
+    text-align: center; /* Centra el contenido del formulario */
+    max-width: 400px; /* Ajusta el ancho del formulario según tus necesidades */
+    margin: 10%; /* Agrega un margen para separarlo de otros elementos */
+}
+
+
+
+
+.input-container {
+    position: relative;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px; 
+    top:0%; 
+    transform: translateY(-50%); 
+    font-size: 14px; 
+    color: #828282;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding-left: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px; /* Ajusta el ancho del menú según tus necesidades */
+    margin: 10px; /* Agrega un margen para separarlo de otros elementos */
+}
+
+.horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-menu li {
+    display: inline;
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+.horizontal-menu li:last-child {
+    margin-right: 0;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    padding: 5px 10px; /* Espaciado interior */
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.horizontal-menu a:hover {
+    background-color: #555;
+}

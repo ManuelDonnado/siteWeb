@@ -1,0 +1,137 @@
+.container {
+    align-content: center;
+    flex-direction: column;
+}
+
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 35%;
+}
+
+.table {
+    width: 100%;
+    max-width: 400px; /* Establece un ancho máximo para la tabla para evitar que se extienda demasiado en pantallas grandes. Ajusta según tus necesidades. */
+    margin: 0 auto; /* Centra la tabla en el centro de la pantalla. */
+    border: solid 1px #D3D3D3;
+    border-radius: 2%;
+}
+
+.table th {
+    border-bottom: 1px solid #D3D3D3; /* Establecer un borde inferior para cada fila. */
+}
+
+.table td, .table th {
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Estilo para hacer que la tabla sea responsive */
+@media (max-width: 600px) {
+    .table {
+        display: block;
+        border-radius: 12%;
+    }
+    .table tr {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+
+    }
+    .table td, .table th {
+        display: block;
+        text-align: center; 
+
+    }
+
+
+}
+
+
+.tInfo{
+    color:#D3D3D3;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    line-height: 17.71px;
+    letter-spacing: -3.5%;  
+  }
+
+
+  .showInf{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    color: black;
+}
+
+ #profile{
+    border-radius: 5%;
+ }
+
+ .user-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0% 5%;
+}
+
+.username {
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.user-menu:hover .dropdown {
+    display: block;
+}
+
+
+.img-menu {
+    margin: 1% 2%;
+}
+
+.edit{
+    width: 95px;
+    height: 38px;
+    border-radius: 12px;
+    background: none;
+    color: #828282;
+    margin: 0% 0% 3% 25%;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 36%;
+    color: #828282;
+    font-size: 14px;
+}
