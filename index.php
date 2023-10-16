@@ -16,16 +16,21 @@
 
 <div class="container" >
 
-    <div class="encabezado" >
-        <div>
-        <h3>Join thousands of learners from around the world</h3>
-        </div>
-        <div class="tittle" >
-        <h4>Master web development by making real-life project. There are multiple paths for you to choose</h4>
-        </div>
-    </div>
+   
          
     <div class="form"> 
+
+    <img src="./assets/devchallenges.svg" alt="">
+    <br>
+    <div class="encabezado" >
+        <div>
+        <h4>Join thousands of learners from around the world</h4>
+        </div>
+        <div class="tittle" >
+        <h5>Master web development by making real-life project. There are multiple paths for you to choose</h5>
+        </div>
+    </div>
+
         <form   action="./models/login.php" method="post">
         <br>
         <div class="input-container">
@@ -36,10 +41,8 @@
              <input class="form-control" type="password" name="password" placeholder="Password"> <i class="fa-solid fa-lock"></i>
          </div>
          <br>
-        <button class="btn btn-primary mb-3" type="submit">Start coding now</button>        
-        </form>
-    </div> 
-
+        <button class="btn btn-primary mb-3" type="submit">Start coding now</button>     
+        
         <p>or continue with these social profile</p>
         <div class="menu" >
         <ul class="horizontal-menu" >
@@ -52,6 +55,10 @@
         </div>
 
         <p>Adready a member? <a href="./views/registrarse.php">Create Acount</a> </p>
+        </form>
+    </div> 
+
+        
 
 
 

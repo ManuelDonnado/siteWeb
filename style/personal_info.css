@@ -3,7 +3,6 @@
     flex-direction: column;
 }
 
-
 .encabezado {
     display: flex;
     align-items: center;
@@ -13,14 +12,14 @@
 
 .table {
     width: 100%;
-    max-width: 400px; /* Establece un ancho máximo para la tabla para evitar que se extienda demasiado en pantallas grandes. Ajusta según tus necesidades. */
-    margin: 0 auto; /* Centra la tabla en el centro de la pantalla. */
+    max-width: 400px; 
+    margin: 0 auto; 
     border: solid 1px #D3D3D3;
     border-radius: 2%;
 }
 
 .table th {
-    border-bottom: 1px solid #D3D3D3; /* Establecer un borde inferior para cada fila. */
+    border-bottom: 1px solid #D3D3D3; 
 }
 
 .table td, .table th {
@@ -28,8 +27,6 @@
     text-align: left;
 }
 
-
-/* Estilo para hacer que la tabla sea responsive */
 @media (max-width: 600px) {
     .table {
         display: block;
@@ -39,17 +36,12 @@
         display: block;
         margin-bottom: 15px;
         border-bottom: 1px solid #ccc;
-
     }
     .table td, .table th {
         display: block;
         text-align: center; 
-
     }
-
-
 }
-
 
 .tInfo{
     color:#D3D3D3;
@@ -59,7 +51,6 @@
     line-height: 17.71px;
     letter-spacing: -3.5%;  
   }
-
 
   .showInf{
     font-size: 18px;
@@ -112,7 +103,6 @@
     display: block;
 }
 
-
 .img-menu {
     margin: 1% 2%;
 }
@@ -125,7 +115,6 @@
     color: #828282;
     margin: 0% 0% 3% 25%;
 }
-
 
 .footer{
     display: flex;

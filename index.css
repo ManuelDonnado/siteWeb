@@ -1,26 +1,24 @@
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* Centra verticalmente en la página */
+    min-height: 100vh; 
 }
 
 .encabezado {
-    text-align: center; /* Centra el texto en el contenedor */
+    text-align: center; 
 }
 
 .form {
-    font-size: 16px; /* Reduce el tamaño de la fuente */
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #b3b3b3;
-    padding: 15%;
+    padding: 1%;
     border-radius: 2%;
-    text-align: center; /* Centra el contenido del formulario */
-    max-width: 400px; /* Ajusta el ancho del formulario según tus necesidades */
-    margin: 10%; /* Agrega un margen para separarlo de otros elementos */
+    text-align: center; 
+    max-width: 400px;
+    margin: 10%; 
 }
-
-
 
 
 .input-container {
@@ -30,7 +28,7 @@
 .input-container i {
     position: absolute;
     left: 10px; 
-    top:0%; 
+    top:50%; 
     transform: translateY(-50%); 
     font-size: 14px; 
     color: #828282;
@@ -44,19 +42,20 @@ input[type="password"] {
 .menu {
     display: flex;
     justify-content: space-between;
-    max-width: 300px; /* Ajusta el ancho del menú según tus necesidades */
-    margin: 10px; /* Agrega un margen para separarlo de otros elementos */
+    max-width: 300px; 
+    margin: 10px; 
 }
 
 .horizontal-menu {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 4%;
+    margin: 5% 10%;
+    align-content: center;
 }
 
 .horizontal-menu li {
     display: inline;
-    margin-right: 10px; /* Espacio entre elementos */
+    margin-right: 10px;
 }
 
 .horizontal-menu li:last-child {
@@ -65,7 +64,7 @@ input[type="password"] {
 
 .horizontal-menu a {
     text-decoration: none;
-    padding: 5px 10px; /* Espaciado interior */
+    padding: 5px 10px; 
     background-color: #333;
     color: #fff;
     border-radius: 5px;
