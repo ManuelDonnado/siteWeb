@@ -91,7 +91,7 @@ session_start();
             </div>
             <div class="mb-3">
             <label class="form-label" for="">Email</label>
-            <input class="form-control" type="text" name="email" id="email" placeholder="Email" value="<?=  $_SESSION["user"] ["email"] ?>" >
+            <input class="form-control" type="text" name="email" id="email" readonly placeholder="Email" value="<?=  $_SESSION["user"] ["email"] ?>" >
             </div>
             <div class="mb-3">
             <label class="form-label" for="">Password</label>
@@ -102,7 +102,7 @@ session_start();
             </form>
             </div>
 
-      
+           
    
 </div>
 </body>
